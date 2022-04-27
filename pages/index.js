@@ -62,8 +62,10 @@ export default function Home() {
           <button className="btn" onClick={search}>
             Google Search
           </button>
-          <button className="btn" onClick={search}>
-            I'm Feeling Lucky
+          <button className="btn text-red-600">
+            <a href="https://github.com/lxl011212/Alphabet" target="_blank">
+              GitHub Code
+            </a>
           </button>
         </div>
       </form>
