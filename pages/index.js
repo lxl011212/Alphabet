@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
+import { ViewGridIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import Footer from "../components/Footer";
@@ -12,11 +12,8 @@ export default function Home() {
 
   const search = (e) => {
     e.preventDefault();
-
     const term = searchInputRef.current.value;
-
     if (!term) return;
-
     router.push(`/search?term=${term}`);
   };
 
@@ -55,7 +52,6 @@ export default function Home() {
             className="flex-grow focus:outline-none"
             ref={searchInputRef}
           />
-          <MicrophoneIcon className="h-5" />
         </div>
 
         <div className="flex flex-col justify-center w-1/2 mt-8 space-y-2 sm:space-y-0 sm:flex-row sm:space-x-4">
