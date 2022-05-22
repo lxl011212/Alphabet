@@ -6,4 +6,4 @@ This is a Google-like web application built with Next.js that searchs the entire
 
 ![screenshot3](assets/pg3.png)
 
-![screenshot1](assets/pg1.png)
+![screenshot4](assets/pg4.png)
